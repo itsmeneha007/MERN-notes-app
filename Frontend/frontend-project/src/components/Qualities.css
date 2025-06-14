@@ -1,0 +1,51 @@
+.qualities-section {
+  padding: 50px 20px;
+  background-color: #fff7f0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.qualities-section h2 {
+  font-size: 2.5rem;
+  color: #040a76;
+  margin-bottom: 40px;
+}
+.qualities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.quality-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+.quality-card:hover {
+  transform: translateY(-5px);
+}
+.quality-icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 15px;
+}
+.quality-card h3 {
+  font-size: 1.1rem;
+  color: #333;
+}
+@media (max-width: 600px) {
+  .qualities-section h2 {
+    font-size: 2rem;
+  }
+
+  .quality-card {
+    padding: 16px;
+  }
+
+  .quality-icon {
+    width: 48px;
+    height: 48px;
+  }
+}
