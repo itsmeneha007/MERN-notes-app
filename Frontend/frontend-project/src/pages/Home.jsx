@@ -34,7 +34,7 @@ const Home = () => {
       <div id="reservation"><Reservation /></div>
       <div id="team"><Team /></div>
 
-      {/* ✅ Test Backend Button (Temporary) */}
+
       <div style={{ textAlign: "center", margin: "20px" }}>
         <button onClick={testBackendConnection} style={{ padding: "10px 20px", fontSize: "16px", cursor: "pointer" }}>
           Test Backend Connection
