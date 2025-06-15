@@ -1,33 +1,4 @@
 
-// import Navbar from "../components/Navbar";
-// import HeroSection from "../components/HeroSection";
-// import About from "../components/About";
-// import Menu from "../components/Menu";
-// import Reservation from "../components/Reservation";
-// import Team from "../components/Team";
-// import Qualities from "../components/Qualities";
-// import Footer from "../components/Footer";
-
-// const Home = () => {
-//   return (
-//     <>
-//       <Navbar />
-//       <div id="hero"><HeroSection /></div>
-//       <div id="about"><About /></div>
-//       <div id="menu"><Menu /></div>
-//       <div id="reservation"><Reservation /></div>
-//       <div id="team"><Team /></div>
-//       <Qualities />
-//       <Footer />
-//     </>
-//   );
-// };
-
-// export default Home;
-
-
-
-
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import About from "../components/About";
@@ -46,11 +17,11 @@ const Home = () => {
         },
       });
       const data = await res.json();
-      console.log("✅ Backend response:", data);
-      alert("✅ Connected! Check console for response.");
+      console.log(" Backend response:", data);
+      alert("Connected! Check console for response.");
     } catch (err) {
-      console.error("❌ Connection failed:", err.message);
-      alert("❌ Connection failed. See console.");
+      console.error("Connection failed:", err.message);
+      alert("Connection failed. See console.");
     }
   };
 
